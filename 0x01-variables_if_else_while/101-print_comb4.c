@@ -1,21 +1,29 @@
 #include <stdio.h>
 
 /**
-  *main - print three digit combinations
+  *main - Entry point
   *
   *Return: Always 0 (Success)
   */
 int main(void)
 {
-	int n;
+	int digit1, digit2, digit3;
 
-	for (n = 48; n < 58; n++)
+	for (digit1 = 0; digit1 < 8; digit1++)
 	{
-		putchar(n);
-		if (n != 57)
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 		{
-			putchar(',');
-			putchar(' ');
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
+
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+				putchar(' ');
+				putchar(',');
+			}
 		}
 	}
 	putchar('\n');
