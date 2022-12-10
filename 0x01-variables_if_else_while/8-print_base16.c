@@ -10,7 +10,7 @@ int main(void)
 	char c = 'a';
 	int num;
 
-	for (num = 0; num <= 16; num++)
+	for (num = 0; num < 16; num++)
 	{
 		if (num < 10)
 		{
