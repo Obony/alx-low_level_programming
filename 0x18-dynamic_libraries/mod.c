@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*
- * mod - returns the remainder
- */
+
 void mod(int a, int b)
 {
-	printf("a %% b = %d", a % b);
+	if (b == 0)
+	{
+		printf("Error: Division by zero!\n");
+		return;
+	}
+	printf("a %% b = %d\n", a % b);
 }
