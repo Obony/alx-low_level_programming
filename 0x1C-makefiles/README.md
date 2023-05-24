@@ -36,14 +36,14 @@ Provided by Holberton School.
     * The `all` rule only recompiles updated source files.
 
 * **2. make -f 2-Makefile**
-  * [2-Makefile](./2-Makefile): Makefile that creates an executable `holberton` based on
+  * [2-Makefile](./2-Makefile): Makefile that creates an executable `school` based on
   [school.c](./school.c) and [main.c](./main.c). Builds on [1-Makefile](./1-Makefile)
   with:
     * Variable `OBJ` that defines the `.o` files to compile.
     * Variable `NAME` that defines the name of the executable.
 
 * **3. make -f 3-Makefile**
-  * [3-Makefile](./3-Makefile): Makefile that creates an executable `holberton` based on
+  * [3-Makefile](./3-Makefile): Makefile that creates an executable `school` based on
   [school.c](./school.c) and [main.c](./main.c). Builds on [2-Makefile](./2-Makefile)
   with:
     * Rule `clean` that deletes all Emacs/Vim temporary files as well as the
@@ -55,7 +55,7 @@ Provided by Holberton School.
     * Variable `RM` that defines the command to delete files.
 
 * **4. A complete Makefile**
-  * [4-Makefile](./4-Makefile): Makefile that creates an executable `holberton` based on
+  * [4-Makefile](./4-Makefile): Makefile that creates an executable `school` based on
   [school.c](./school.c) and [main.c](./main.c). Builds on [3-Makefile](./3-Makefile)
   with:
     * Variable `CFLAGS` that defines the compiler flags `-Wall -Werror -Wextra
@@ -77,7 +77,7 @@ Provided by Holberton School.
     surrounding land).
 
 * **6. make -f 100-Makefile**
-  * [100-Makefile](./100-Makefile): Makefile that creates an executable `holberton` based on
+  * [100-Makefile](./100-Makefile): Makefile that creates an executable `school` based on
   [school.c](./school.c) and [main.c](./main.c). Builds on [4-Makefile](./4-Makefile)
   with:
     * Does not define the variable `RM`.
